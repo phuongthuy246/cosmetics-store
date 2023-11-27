@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+:root {
+    --main: #326e51;
+    --green: #28a745;
+    --orange: #fd7e14;
+    --gray: #6c757d;
+    --black: #000;
+    --white: #fff;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-size: 30%;
+    background-repeat: repeat;
+    background-color: #f1f1f5;
+}
+
+.web {
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+}
+.header-payment {
+    /* width: 1200px; */
+    margin: 0 auto;
+    text-align: center;
+    height: 50px;
+    background-color: var(--main);
+    margin-bottom: 10px;
+}
+.icon-back {
+    /* width: 30px; */
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 1rem;
+    color: var(--white);
+    float: left;
+    height: 30px;
+}
+.content-payment {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+.content-payment-left {
+    width: 630px;
+}
+.content-payment-left-grid {
+    margin: 10px 0 10px 10px;
+    border: 1px solid #e3e7e6;
+}
+.infor-delivery {
+    border-top: 3px solid #75b496;
+    padding: 10px;
+    border-bottom: 1px solid #e3e7e6;
+    color: var(--main);
+    display: flex;
+}
+.infor-delivery h4 {
+    margin: 0;
+    margin-left: 10px;
+}
+.delivery-content {
+    font-size: 14px;
+    padding: 10px;
+    /* border-bottom: 1px solid #e3e7e6; */
+
+    color: #666666;
+}
+.delivery-name {
+    margin: 0;
+}
+.delivery-content p {
+    margin: 0;
+    padding: 4px 0 0 0;
+}
+.delivery-note {
+    font-size: 14px;
+    margin: 0;
+    padding: 20px 0 5px 0;
+    color: var(--black);
+}
+.delivery-content textarea {
+    width: 590px;
+    height: 60px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    border: 1px solid #b8b5b5;
+    border-radius: 3px;
+}
+.delivery-content textarea:focus {
+    outline: none;
+}
+.payment-methods {
+    padding-bottom: 4px;
+}
+.payment-methods span {
+    color: var(--orange);
+    font-weight: bold;
+}
+.content-payment-left-grid2 {
+    margin: 10px 0 10px 10px;
+    border: 1px solid #e3e7e6;
+}
+.infor-delivery2 {
+    border-top: 3px solid #75b496;
+    padding: 10px;
+    border-bottom: 1px solid #e3e7e6;
+    color: var(--main);
+    display: flex;
+}
+.infor-delivery2 h4 {
+    margin: 0;
+    margin-left: 10px;
+}
+.delivery-content2 {
+    font-size: 14px;
+    padding-top: 5px;
+    margin: 10px;
+    border-bottom: 1px solid #e3e7e6;
+    padding-bottom: 10px;
+
+    /* color: #666666; */
+}
+.delivery-content2:last-child {
+    border-bottom: none;
+}
+.delivery-content2 h4 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.content-payment-right {
+    width: 40%;
+    margin-right: 10px;
+}
+.content-payment-right-grid {
+    margin: 10px 0 10px 10px;
+    border: 1px solid #e3e7e6;
+    height: auto;
+}
+.cart-delivery {
+    border-top: 3px solid #75b496;
+    padding: 10px;
+    border-bottom: 1px solid #e3e7e6;
+    color: var(--main);
+    display: flex;
+    justify-content: space-between;
+}
+.cart-delivery h4 {
+    margin: 0;
+    /* margin-left: 10px; */
+}
+.cart-delivery a {
+    text-decoration: none;
+    color: var(--main);
+    font-weight: bold;
+}
+
+.list-item-donhang {
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    /* float: left; */
+    height: 72px;
+    border-bottom: 1px dotted #eaeaea;
+}
+.item-img-donhang {
+    width: 21%;
+    padding: 0 10px;
+    float: left;
+}
+.item-img-donhang img {
+    border: 0;
+    font-size: 0;
+    line-height: 0;
+    max-width: 100%;
+}
+.item-info-donhang {
+    width: 49%;
+    float: left;
+}
+.item-price-donhang {
+    padding: 0 10px;
+    width: 18%;
+    float: left;
+    text-align: right;
+}
+.checkout-donhang {
+    margin: 10px;
+}
+.checkout-tamtinh {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.checkout-tamtinh p {
+    margin: 0;
+    float: right;
+}
+.checkout-dathang {
+    padding: 10px;
+    border-top: 1px solid #e3e7e6;
+}
+.checkout-thanhtien {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.checkout-thanhtien p {
+    margin: 0;
+    float: right;
+    font-size: 15px;
+    color: var(--orange);
+    font-weight: bold;
+}
+.checkout-dathang button {
+    width: 328px;
+    background-color: var(--orange);
+    height: 35px;
+    border: 1px;
+    border-radius: 5px;
+    color: var(--white);
+}
